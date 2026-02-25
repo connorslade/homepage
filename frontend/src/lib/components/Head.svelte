@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} &mdash; Connor Code</title>
+	<title>{title} &mdash; Connor Slade</title>
 	<meta name="description" content={txt_description} />
 
 	<meta property="og:title" content={title} />
@@ -29,7 +29,7 @@
 		<meta property="article:published_time" content={published.toISOString()} />
 	{/if}
 
-	<meta property="og:site_name" content="connorcode" />
+	<meta property="og:site_name" content="Connor Slade" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content={article ? 'article' : 'website'} />
 

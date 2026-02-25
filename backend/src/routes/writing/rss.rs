@@ -31,8 +31,8 @@ pub fn attach(server: &mut Server<App>) {
                 r#"<?xml version="1.0" encoding="UTF-8" ?>
                 <rss version="2.0">
                 <channel>
-                <title>ConnorCode</title>
-                <description>ConnorCode Articles</description>
+                <title>Connor Slade</title>
+                <description>Connor Slade's personal website.</description>
                 <link>{}</link>
                 <copyright>Connor Slade</copyright>
                 <language>en</language>

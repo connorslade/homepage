@@ -3,7 +3,6 @@
 	import Head from '$lib/components/Head.svelte';
 	import Link from '$lib/components/Link.svelte';
 
-	import { VERSION } from '$lib/consts';
 	import type { PageData } from './$types';
 
 	function get_greeting(): string {
@@ -17,10 +16,7 @@
 	export let data: PageData;
 </script>
 
-<Head
-	title="Home"
-	description="Hello world, I'm Connor Slade. Welcome to my little place on the internet, connorcode.com version {VERSION}"
-/>
+<Head title="Home" description="Hi, I'm Connor Slade. Welcome to my little place on the internet" />
 
 <h1>Home</h1>
 
